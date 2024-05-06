@@ -1,0 +1,14 @@
+{
+  "name": "mern-portfolio",
+  "version": "1.0.0",
+  "description": "portfolio app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yamini",
+  "license": "MIT",
+  "dependencies": {
+    "react-icons": "^5.2.0"
+  }
+}
