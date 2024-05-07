@@ -24,4 +24,8 @@
 .nav-link{
     margin-top: 20px;
     cursor: pointer;
+    margin-right: 10px;
+}
+.nav-link svg{
+    margin-right: 10px;
 }
