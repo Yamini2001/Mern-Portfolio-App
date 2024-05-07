@@ -2,8 +2,8 @@ import React from 'react';
 import './Menu.css';
 import YaminiImage from '../Menus/images/Yamini.jpeg';
 import { FaHome} from "react-icons/fa";
-import { FcAbout,FcPortraitMode} from "react-icons/fc";
-import { GrTechnology } from "react-icons/gr";
+import { FcAbout,FcPortraitMode,FcReading,FcContacts,FcVoicePresentation} from "react-icons/fc";
+import { GrTechnology,GrProjects } from "react-icons/gr";
 
 const Menu = ({toggle}) => {
   return (
@@ -31,12 +31,20 @@ const Menu = ({toggle}) => {
              Tech Stack
               </div>
               <div className="nav-link">
-              <FaHome/> 
-              Home
+              <FcReading/> 
+              Education
               </div>
               <div className="nav-link">
-              <FaHome/> 
-              Home
+              <GrProjects />
+              Projects
+              </div>
+              <div className="nav-link">
+              <FcVoicePresentation />
+              Testimonial
+              </div>
+              <div className="nav-link">
+              <FcContacts /> 
+              Contact
               </div>
             </div>
           </div>
