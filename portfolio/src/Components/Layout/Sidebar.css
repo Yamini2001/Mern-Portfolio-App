@@ -1,13 +1,20 @@
-.sidebar-section{
-    display:flex;
+.sidebar-section {
+    display: flex;
+    background-color: #f6f6f6; /* Light gray background */
+    /* Create a CSS-based pattern */
+    background-image: linear-gradient(45deg, #e0e0e0 25%, transparent 25%), 
+                      linear-gradient(-45deg, #e0e0e0 25%, transparent 25%);
+    background-size: 30px 30px; /* Adjust pattern size */
 }
 .sidebar{
     height: 100vh;
-    background-color: blanchedalmond;
+    background-color: Teal;
     width: 90px;
+    position: fixed;
+    
 }
 .sidebar-toggle{
-    width: 230px;
+    width: 200px;
 }
 .sidebar-toggle-icons{
     display: flex;
@@ -17,7 +24,7 @@
 
 }
 .sidebar-toggle-icons p svg{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: teal;
     margin-top: 30px;
 }
