@@ -1,25 +1,25 @@
 .navbar-profile-pic {
-    border-radius: 100%;
-    height: 130px;
-    width: 90px;
+    border-radius: 50%;
+    height: 180px;
+    width: 140px; /* Ensure width and height are the same for a perfect circle */
     overflow: hidden;
-    display: flex; /* Use flexbox */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    margin-right: -10px;
-    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .navbar-profile-pic img {
-    max-width: 100%; /* Ensure the image does not exceed the container's width */
-    max-height: 100%; /* Ensure the image does not exceed the container's height */
-    margin: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire container */
 }
+
 .nav-item{
     color: black;
     margin-top: 30px;
     /* text-align: center; */
-    margin-left: 25px;
+    margin-left: 45px;
 }
 .nav-link{
     margin-top: 20px;

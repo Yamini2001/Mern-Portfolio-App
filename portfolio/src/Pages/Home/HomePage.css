@@ -3,33 +3,34 @@
     color: Turquoise;
     
 }
-.home-content h1{
+.home-content h2{
     padding:5px;
-    padding-top: 80px;
+    padding-top: 70px;
     margin-left: 160px;
 }
-.home-content h2{
+.home-content h1{
     padding:5px;
     color:teal;
     margin-left: 160px;
 }
 .home-buttons{
     margin-left: 150px;
+    margin-top: 20px;
 }
 .home-buttons .btn-hire{
-    background-color: teal;
+    background-color: Turquoise;
     color: white;
     width: 160px;
 }
 .home-buttons .btn-hire:hover{
-    background-color: Turquoise;
+    background-color: Aquamarine;
     color: teal;
     width: 200px;
     transition: 1s;
 }
 
 .home-buttons .btn-cv{
-    background-color: teal;
+    background-color: Turquoise;
     color: white;
     width: 160px;
     margin-left: 15px;
