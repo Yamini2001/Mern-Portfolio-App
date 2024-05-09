@@ -22,9 +22,9 @@ In my arsenal, MongoDB serves as the sturdy foundation, providing a flexible and
 <br/>
 
 When it comes to the frontend, React.js is my weapon of choice. Its declarative and component-based approach resonates deeply with me, allowing me to craft intuitive user interfaces that captivate and engage audiences. With Redux at my side, I orchestrate state management with precision, ensuring that my applications remain responsive and resilient.<br/>
-<br/>
+{/* <br/>
 
-Driven by a passion for innovation and a relentless pursuit of excellence, I am not just a MERN Stack Developer—I am a visionary architect, sculpting the digital landscapes of tomorrow with creativity, skill, and boundless determination.
+Driven by a passion for innovation and a relentless pursuit of excellence, I am not just a MERN Stack Developer—I am a visionary architect, sculpting the digital landscapes of tomorrow with creativity, skill, and boundless determination. */}
               </p>
             </div>
           </div>
