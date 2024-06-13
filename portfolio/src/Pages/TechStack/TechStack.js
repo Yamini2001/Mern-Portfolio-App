@@ -1,5 +1,6 @@
 import React from 'react'
 import './TechStack.css';
+import { techstackList } from '../../utils/techstackList';
 
 const TechStack = () => {
   return (
@@ -12,12 +13,17 @@ const TechStack = () => {
                 <br/>
                 Frameworks and Libraries: React, Node.js, Express, Redux
                 <br/>
-                Tools and Platforms: Git, AWS, Jira
+                Tools and Platforms: Git, AWS, Jira, Figma
                 <br/>
                 Databases: MongoDB, SQL, MySQL
                 <br/>
                 Other Technologies: REST APIs, Agile Methodologies, Context API 
             </p>
+        </div>
+        <div className="row">
+          {techstackList.map(tech =>(
+              <h1></h1>
+          ))}
         </div>
       
     </div>
