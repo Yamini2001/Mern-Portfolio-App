@@ -1,5 +1,6 @@
 import Sidebar from "./Components/Layout/Sidebar";
 import About from "./Pages/About/About";
+import TechStack from "./Pages/TechStack/TechStack";
 
 function App() {
   return(
@@ -8,6 +9,7 @@ function App() {
       <div className="container">
       <About/> 
       </div>
+      <TechStack/>
     </div>
 
   );
