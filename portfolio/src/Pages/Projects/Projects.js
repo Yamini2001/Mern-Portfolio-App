@@ -36,7 +36,7 @@ const Projects = () => {
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
                     <h6 className="text-uppercase">
-                      Portfolio App
+                      MERN Portfolio App
                     </h6>
                   </div>
                   <a
@@ -51,24 +51,24 @@ const Projects = () => {
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
-                  <span className="card-notify-badge">Mobile App</span>
+                  <span className="card-notify-badge">Web App</span>
                   <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR356D-1YtSagN4-_ZdjZ5H9o6PKUO4h12dvw&usqp=CAU"
                     alt="project2"
                   />
                 </div>
                 <div className="card-image-overly m-auto mt-3">
-                  <span className="card-detail-badge">React Native</span>
+                  <span className="card-detail-badge">Machine Learning</span>
 
-                  <span className="card-detail-badge">IOS / ANDROID</span>
+                  <span className="card-detail-badge">Javascript</span>
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
-                    <h5 className="text-uppercase">Techinfoyt Coding App</h5>
+                    <h5 className="text-uppercase">EcoHarmony Scanner App</h5>
                   </div>
                   <a
                     className="ad-btn"
-                    href="https://github.com/techinfo-youtube/ecommerce-app-2023"
+                    href="https://github.com/Yamini2001/EcoHarmony-Scanner"
                   >
                     View
                   </a>
@@ -78,23 +78,26 @@ const Projects = () => {
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
-                  <span className="card-notify-badge">Backend</span>
+                  <span className="card-notify-badge">Mobile App</span>
                   <img
                     src="https://www.nextwebi.com/assets/img/img-source/mobile-top-banner-28.png"
                     alt="project1"
                   />
                 </div>
                 <div className="card-image-overly m-auto mt-3">
-                  <span className="card-detail-badge">Node</span>
-                  <span className="card-detail-badge">Express</span>
+                  <span className="card-detail-badge">React</span>
+                  <span className="card-detail-badge">Ant Design</span>
 
-                  <span className="card-detail-badge">NoSQL</span>
+                  <span className="card-detail-badge">Javasrcipt</span>
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
-                    <h5 className="text-uppercase">Techinfoyt Job Portal</h5>
+                    <h5 className="text-uppercase">Web Based Writing Tool</h5>
                   </div>
-                  <a className="ad-btn" href="view">
+                  <a
+                    className="ad-btn"
+                    href="https://github.com/Yamini2001/Word-Counter-App"
+                  >
                     View
                   </a>
                 </div>
