@@ -1,33 +1,40 @@
-import React from 'react'
-import './TechStack.css';
-import { techstackList } from '../../utils/techstackList';
+import React from "react";
+import "./TechStack.css";
+import { TechstackList } from "../../utils/techstackList"; // Corrected import statement
 
-const TechStack = () => {
+const Techstack = () => {
   return (
-    <div>
-        <div className="container techstack">
-            <h2 className='col-12 mt-3 mb-1 text-center'>Technologies Stack</h2>
-            <hr/>
-            <p className='pb-3 text-center'>
-                Programming Languages: Java, Javascript, HTML, CSS/SCSS
-                <br/>
-                Frameworks and Libraries: React, Node.js, Express, Redux
-                <br/>
-                Tools and Platforms: Git, AWS, Jira, Figma
-                <br/>
-                Databases: MongoDB, SQL, MySQL
-                <br/>
-                Other Technologies: REST APIs, Agile Methodologies, Context API 
-            </p>
-        </div>
-        <div className="row">
-          {techstackList.map(tech =>(
-              <h1></h1>
-          ))}
-        </div>
-      
+    <div className="container techstack" id="techstack">
+      <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
+        Technologies Stack
+      </h2>
+      <hr />
+      <p className="pb-3 text-center">
+        👉 including programming Languages, frameworks, databases, front-end
+        and back-end tools, and APIs
+      </p>
+      <div className="row">
+        {TechstackList.map((tech) => (
+          <div key={tech._id} className="col-md-3">
+            <div className="card m-2">
+              <div className="card-content">
+                <div className="card-body">
+                  <div className="media d-flex justify-content-center">
+                    <div className="align-self-center">
+                      <tech.icon className="tech-icon" />
+                    </div>
+                    <div className="media-body">
+                      <h5>{tech.name}</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default TechStack
+export default Techstack;
