@@ -1,5 +1,6 @@
 import React from "react";
 import "./Projects.css";
+import mernPortfolioImage from "../../Components/Menus/images/mernPortfolioImage.png";
 const Projects = () => {
   return (
     <>
@@ -23,7 +24,7 @@ const Projects = () => {
                 <div className="card-image">
                   <span className="card-notify-badge">MERN stack</span>
                   <img
-                    src="https://unctad.org/sites/default/files/2021-03/2021-03-15_eCommerceCOVID19report-1-1220x675px.jpg"
+                    src={mernPortfolioImage}
                     alt="project1"
                   />
                 </div>
@@ -81,7 +82,7 @@ const Projects = () => {
                   <span className="card-notify-badge">Mobile App</span>
                   <img
                     src="https://www.nextwebi.com/assets/img/img-source/mobile-top-banner-28.png"
-                    alt="project1"
+                    alt="project3"
                   />
                 </div>
                 <div className="card-image-overly m-auto mt-3">

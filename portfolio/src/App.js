@@ -2,6 +2,7 @@ import Sidebar from "./Components/Layout/Sidebar";
 import About from "./Pages/About/About";
 import TechStack from "./Pages/TechStack/TechStack";
 import Projects from "./Pages/Projects/Projects";
+import Educations from './Pages/Educations/Education';
 
 function App() {
   return(
@@ -13,6 +14,7 @@ function App() {
       <TechStack/>
       <div className="container1">
         <Projects/>
+        <Educations/>
       </div>
     </div>
     
